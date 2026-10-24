@@ -1,0 +1,64 @@
+@media (max-width: 800px) {
+
+    .nav__toggle {
+        display: block;
+
+        cursor: pointer;
+    }
+
+    .nav__list {
+        display: none;
+
+        position: absolute;
+
+        top: 75px;
+
+        left: 0;
+
+        right: 0;
+
+        background: white;
+
+        padding: 25px;
+
+        flex-direction: column;
+
+        text-align: center;
+    }
+
+    .nav__list--open {
+        display: flex;
+    }
+
+    .hero {
+        grid-template-columns: 1fr;
+
+        padding: 70px 0;
+
+        text-align: center;
+    }
+
+    .hero__text {
+        margin-left: auto;
+
+        margin-right: auto;
+    }
+
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+@media (max-width: 500px) {
+
+    .hero__title {
+        font-size: 48px;
+    }
+
+    .heading__title,
+    .story__title,
+    .contact__title {
+        font-size: 32px;
+    }
+}

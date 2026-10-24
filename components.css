@@ -1,0 +1,16 @@
+.heading__label {
+    margin-bottom: 10px;
+}
+
+.product:hover {
+    transform: translateY(-5px);
+    transition: transform .25s ease;
+}
+
+.button:hover {
+    opacity: .9;
+}
+
+.story__label {
+    margin-bottom: 10px;
+}
